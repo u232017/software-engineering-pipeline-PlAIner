@@ -1,8 +1,5 @@
-from calculator import add, sub, multiply, power
+from calculator import add, sub, multiply, power, root
 import pytest
-
-from calculator import add, sub, root
-    from calculator import add, sub
 
 
 def test_add():
