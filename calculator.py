@@ -6,6 +6,12 @@ def sub(a, b):
     return a - b
 
 
+def multiply(a, b):
+    return a * b
+
+
+def power(base, exponente):
+    return base ** exponente
 def root(index, radicand):
     if index == 0:
         raise ValueError("El índice de la raíz no puede ser cero.")

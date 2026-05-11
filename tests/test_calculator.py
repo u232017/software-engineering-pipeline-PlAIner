@@ -1,3 +1,4 @@
+from calculator import add, sub, multiply, power
 import pytest
 
 from calculator import add, sub, root
@@ -33,5 +34,12 @@ def test_root_negative_even_index_raises():
 def test_root_negative_odd_index():
     assert root(3, -8) == pytest.approx(-2.0)
 def test_multiply():
-assert multiply(3, 4) == 12
-assert multiply(0, 5) == 0
+    assert multiply(3, 4) == 12
+    assert multiply(0, 5) == 0
+
+
+def test_power():
+    assert power(2, 3) == 8
+    assert power(5, 0) == 1
+    assert power(7, 1) == 7
+    assert power(2, -2) == 0.25
