@@ -21,4 +21,4 @@ def root(index, radicand):
         return -((-radicand) ** (1 / index))
     return radicand ** (1 / index)
 def multiply(a, b):
-return a * b
+    return a * b
