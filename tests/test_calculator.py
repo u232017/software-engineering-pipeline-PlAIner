@@ -33,6 +33,8 @@ def test_root_negative_even_index_raises():
 
 def test_root_negative_odd_index():
     assert root(3, -8) == pytest.approx(-2.0)
+
+
 def test_multiply():
     assert multiply(3, 4) == 12
     assert multiply(0, 5) == 0
